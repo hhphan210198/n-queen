@@ -49,7 +49,7 @@ def number_of_solution():
         board = generate(sz)
         b = Board(board)
         count_sol = count_solution(b, -1, 0)
-        print("Number of solutions in total for %d x %d boards: %d" % (sz, sz, count_sol))
+        print("Number of solutions in total for %d x %d boards: %d." % (sz, sz, count_sol))
 
 
 number_of_solution()
